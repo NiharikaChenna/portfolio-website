@@ -1,0 +1,260 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Niharika Chenna | Full stack developer.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Niharika Chenna</span>
+          <a href="">
+            <span class="wave"> 👋</span>
+          </a>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Frontend Developer</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My projects</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Paytm website</h3>
+              <p>
+                Tried to clone a paytm website using HTML & CSS
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://paytm-clone-project-html-css.netlify.app" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/clone.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Rest Countries</h3>
+              <p>
+                Rest countries API provides information about the countries in the world in JSON format. Data of each country contains
+useful information like the capital city,population, languages, currencies and many more.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <!-- <li>Next.js</li> -->
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://rest-countries-proj-javascript.netlify.app" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/country.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Food website</h3>
+              <p>
+                Here in this project we have components where we are going to show our food recipes and we need to fetch all the required data
+                Using API. We will fetch the API data, in a component structure using react hooks (useEffect,useState)
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <!-- <li>Next.js</li> -->
+                <li>CSS</li>
+                <li>Boostrap</li>
+                <li>React.js</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://food-recipe-project-react.netlify.app" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/food.png" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Clients ***** -->
+
+    <section class="Skills" id="Skills">
+      <div class="row">
+        <h2>Skills</h2>
+        <div class="Skill__logos">
+          <!-- Add logos of the clients or companies you'have worked with. -->
+          <img src="./images/html-5.png" class="client__logo" alt="Company 2" />
+          <img src="./images/css.png"  class="client__logo" alt="Company 3" />
+          <img src="./images/js (1).png"  class="client__logo" alt="Company 1" />
+          <img src="./images/bootstrap.png" class="client__logo" alt="Company 1" />
+          <img src="./images/react.png" class="client__logo" alt="Company 3" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+             To build a career with leading corporate of stimulating environment which encourages me to work in broad range of areas through hardwork, research and perseverance.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="https://drive.google.com/file/d/113y9VCaiT4sFWwSAmUVvDuhbBjvSMmEp/view?usp=sharing" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/niha.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Hi! <span class="wave"> 👋</span> I'm Niharika, Graduated from University College of Engineering and Technology. 
+          Looking for a job which I am passionate about Frontend Developer because this allows me to be extremely creative.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:niharikachenna567@gmail.com" class="btn">niharikachenna567@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/NiharikaChenna" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/niharika-chenna-ab55a7219/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+      <p>
+        &copy; 2022 - Template designed & developed by <a href="" class="link">Niharika</a>.
+      </p>
+      <!-- <div class="footer__github-buttons">
+        <iframe
+          src="https://ghbtns.com/github-btn.html?user=nisarhassan12&repo=portfolio-template&type=watch&count=true"
+          frameborder="0" scrolling="0" width="170" height="20" title="Watch Portfolio Template on GitHub">
+        </iframe>
+      </div> -->
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./script.js"></script>
+</body>
+
+</html>
